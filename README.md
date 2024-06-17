@@ -1,54 +1,56 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15278016&assignment_repo_type=AssignmentRepo)
-# Dev_Setup
-Setup Development Environment
+Documenting my Developer Environment Setup in Visual Studio Code
+=========================================================================
+This document outlines the process of setting up a developer environment in Visual Studio Code (VS Code). It covers installation, configuration, customization, troubleshooting, and version control integration.
 
-#Assignment: Setting Up Your Developer Environment
+Step 1: Installing Visual Studio Code
+Visit the official VS Code website: https://code.visualstudio.com/
+Download the appropriate installer for your operating system (Windows, macOS, or Linux).
+Open the downloaded file and follow the installation instructions.
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
+Step 2: Installing Necessary Extensions
+Open Visual Studio Code.
+Click on the Extensions tab (puzzle piece icon) on the left side of the window or press Ctrl + Shift + X.
+Search for and install extensions related to the programming languages and frameworks you plan to use (e.g., Python, JavaScript, C/C++, Java).
 
-#Tasks:
+Step 3: Setting Up a Terminal
+Open Visual Studio Code.
+Click on the View menu, then select Terminal, or press Ctrl +\` on your keyboard.
+Configure your terminal settings if necessary by clicking on the Terminal menu and selecting Terminal Settings.
 
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+Step 4: Creating a Folder Structure
+In Visual Studio Code, click on the Explorer tab (folder icon) on the left side of the window.
+Click on the "Open Folder" button and select a location for your project folder.
+Inside this folder, create separate directories for your source code, tests, documentation, and other necessary components.
 
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+Step 5: Creating Source Code Files
+In the Explorer tab, navigate to the source code directory you created in the previous step.
+Right-click on the directory and select "New File" or press Ctrl + N.
+Name the file with an appropriate extension for the programming language you're using (e.g., .py for Python, .js for JavaScript, etc.).
 
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+Step 6: Configuring Launch Settings
+Open Visual Studio Code.
+Click on the debug panel by clicking the debug icon (bug) or pressing Ctrl + Shift + D.
+Select the gear icon to open launch.json.
+Configure launch settings for your project (e.g., Python: Current File, JavaScript: Launch, etc.) based on your programming language.
 
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
+Step 7: Testing Your Setup
+In your source code file, create a simple "Hello, World!" program for your chosen programming language.
+Run the program using the Run button (play icon) or press Ctrl + Alt + N.
 
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
-
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
-
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
-
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
-
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
-
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
-
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
-
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+Challenges and Solutions
+Issue: Difficulty finding the right extensions
+Solution: Consult documentation for your programming language or framework to identify recommended extensions.
+Issue: Version control integration problems
+Solution: Ensure that Git is installed and configured correctly, and follow Git-specific instructions for setting up a repository in VS Code.
+Issue: Debugging challenges
+Solution: Configure launch settings in VS Code, and consult programming language documentation for debugging best practices.
+Sample Project and Git Configuration
+The following is an example of initializing a Git repository and adding necessary configuration files:
+Install Git on your system (if not already installed).
+Open the terminal in Visual Studio Code.
+Navigate to your project directory using the cd command.
+Initialize a new Git repository by running git init.
+Create a .gitignore file in the root directory and add patterns for files and directories to exclude from version control (e.g., node_modules/, .vscode/, *.log, etc.).
+Add your project files to the repository using git add --all.
+Commit the changes with a message using git commit -m "Initial commit".
+By following these steps, i've set up a developer environment in Visual Studio Code, integrated version control with Git.
